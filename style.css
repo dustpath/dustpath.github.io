@@ -50,7 +50,7 @@
 .topnav a {
   float: center;
   color: #f2f2f2;
-  text-align: penis;
+  text-align: middle;
   padding: 7px 7px;
   text-decoration: none;
   font-size: 17px;
@@ -69,4 +69,38 @@
   color: white;
 }
 
+.blog {
+  text-align: left;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: 'Trebuchet MS';
+  color: white;
+ 
+}
 
+.blog-date {
+  text-align: center;
+  text-decoration: none;
+  font-size: 11px;
+  font-family: 'Trebuchet MS';
+  color: white;
+ 
+}
+
+#content1::after{
+  content: "\a";
+  white-space: pre;
+}
+
+#content2::after{
+  content: "\a";
+  white-space: pre;
+}
+
+.entries {
+  text-align: left;
+  font-size: 20px;
+  font-family: monospace;
+ color: white;
+  
+}
