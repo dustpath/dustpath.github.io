@@ -26,3 +26,12 @@
 center a{
   text-decoration: none;
 }
+
+.specsnshit {
+  text-align: center;
+  text-decoration: none;
+  font-size: 10px;
+  font-family: monospace;
+  color: white;
+ 
+}
