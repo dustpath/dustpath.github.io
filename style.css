@@ -1,4 +1,4 @@
-.topofpage {
+.header {
   text-align: center;
   text-decoration: none;
   font-size: 30px;
@@ -7,7 +7,7 @@
   
 }
 
-.topofpage2 {
+.desc {
   text-align: center;
   text-decoration: none;
   font-size: 20px;
@@ -27,7 +27,7 @@ center a{
   text-decoration: none;
 }
 
-.specsnshit {
+.subtext {
   text-align: center;
   text-decoration: none;
   font-size: 10px;
