@@ -49,12 +49,14 @@ body {
 }
 
 .center {
-    margin: auto;
+    text-align: center;
 }
 
-.dear-god {
-    width: 700px;
-    height: 437.5px;
+.dear-god img {
+    width: 33%;
+    /* height: 437.5px; */
+    display: flex;
+    flex-direction: column-reverse;
 }
 
 /* a:hover,
