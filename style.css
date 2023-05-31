@@ -1,63 +1,90 @@
 .header {
-  text-align: center;
-  text-decoration: none;
-  font-size: 30px;
-  font-family: arial;
-  color: white;
-  
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: arial;
+    color: white;
 }
 
 .desc {
-  text-align: center;
-  text-decoration: none;
-  font-size: 20px;
-  font-family: monospace;
-  color: white;
- 
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: monospace;
+    color: white;
 }
 
 .center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-center a{
-  text-decoration: none;
+.center a {
+    text-decoration: none;
 }
 
 .subtext {
-  text-align: center;
-  text-decoration: none;
-  font-size: 10px;
-  font-family: monospace;
-  color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 10px;
+    font-family: monospace;
+    color: white;
 }
- 
+
 .rainbow {
-  text-align: center;
-  text-decoration: none;
-  font-size: 30px;
-  font-family: arial;
-  letter-spacing: 0;
-  animation: colorRotate 3s linear 0s infinite;
-  }
-  
-  @keyframes colorRotate {
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: arial;
+    letter-spacing: 0;
+    animation: colorRotate 3s linear 0s infinite;
+}
+
+body {
+    background-color: rgb(31, 30, 30);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.center {
+    margin: auto;
+}
+
+.dear-god {
+    width: 700px;
+    height: 437.5px;
+}
+
+/* a:hover,
+a:visited,
+a:active {
+    text-decoration: none;
+    color: white;
+} */
+
+a {
+    color: white;
+}
+a:hover {
+    text-decoration: none;
+}
+
+@keyframes colorRotate {
     from {
-      color: #6666ff;
+        color: #6666ff;
     }
     10% {
-      color: #0099ff;
+        color: #0099ff;
     }
     50% {
-      color: #00ff00;
+        color: #00ff00;
     }
     75% {
-      color: #ff3399;
+        color: #ff3399;
     }
     100% {
-      color: #6666ff;
+        color: #6666ff;
     }
-  }
+}
