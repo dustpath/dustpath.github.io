@@ -4,76 +4,76 @@
     font-size: 30px;
     font-family: arial;
     color: white;
-}
-
-.desc {
+  }
+  
+  .desc {
     text-align: center;
     text-decoration: none;
     font-size: 20px;
     font-family: monospace;
     color: white;
-}
-
-.center {
+  }
+  
+  .center {
     display: block;
     margin-left: auto;
     margin-right: auto;
-}
-
-.center a {
+  }
+  
+  .center a {
     text-decoration: none;
-}
-
-.subtext {
+  }
+  
+  .subtext {
     text-align: center;
     text-decoration: none;
     font-size: 10px;
     font-family: monospace;
     color: white;
-}
-
-.rainbow {
+  }
+  
+  .rainbow {
     text-align: center;
     text-decoration: none;
     font-size: 30px;
     font-family: arial;
     letter-spacing: 0;
     animation: colorRotate 3s linear 0s infinite;
-}
-
-body {
+  }
+  
+  body {
     background-color: rgb(31, 30, 30);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-}
-
-.center {
+  }
+  
+  .center {
     text-align: center;
-}
-
-.photos img {
+  }
+  
+  .photos img {
     width: 33%;
     /* height: 437.5px; */
     display: flex;
     flex-direction: column-reverse;
-}
-
-/* a:hover,
-a:visited,
-a:active {
+  }
+  
+  /* a:hover,
+  a:visited,
+  a:active {
     text-decoration: none;
     color: white;
-} */
-
-a {
+  } */
+  
+  a {
     color: white;
-}
-a:hover {
+  }
+  a:hover {
     text-decoration: none;
-}
-
-@keyframes colorRotate {
+  }
+  
+  @keyframes colorRotate {
     from {
         color: #6666ff;
     }
@@ -89,4 +89,5 @@ a:hover {
     100% {
         color: #6666ff;
     }
-}
+  }
+  
