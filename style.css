@@ -24,6 +24,14 @@
   text-decoration: none;
 }
 
+.subpages {
+  text-align: center;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: white;
+}
+
 .subtext {
   text-align: center;
   text-decoration: none;
@@ -31,6 +39,7 @@
   font-family: monospace;
   color: white;
 }
+
 
 .rainbow {
   text-align: center;
@@ -42,8 +51,8 @@
 }
 
 body {
-  background-image: url('photos/bg.png');
-  background-color: rgb(31, 30, 30);
+  background-image: url('');
+  background-color: rgb(41, 41, 41);
   background-repeat: repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -68,7 +77,7 @@ a:active {
 } */
 
 a {
-  color: white;
+  color: #0000EE;
 }
 a:hover {
   text-decoration: none;
@@ -76,18 +85,33 @@ a:hover {
 
 @keyframes colorRotate {
   from {
-      color: #6666ff;
+      color: #5BCEFA;
   }
-  10% {
-      color: #0099ff;
+  15% {
+      color: #F5A9B8;
   }
   50% {
-      color: #00ff00;
+      color: #FFFFFF;
   }
   75% {
-      color: #ff3399;
+      color: #F5A9B8;
   }
   100% {
-      color: #6666ff;
+      color: #5BCEFA;
   }
+}
+
+.middle {
+  position: absolute;
+  top:  50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.toppadding {
+  padding: 2px;
+}
+
+.photopadding {
+  padding: 5px;
 }
