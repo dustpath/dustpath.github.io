@@ -117,10 +117,8 @@ a:hover {
 }
 
 .middle {
-  position: absolute;
-  top:  57%;
-  left: 50%;
-  transform: translate(-50%,-50%);
+  padding-left: 30%;
+  padding-right: 30%;
 }
 
 .toppadding {
@@ -129,4 +127,11 @@ a:hover {
 
 .photopadding {
   padding: 5px;
+}
+
+@media only screen and (max-width: 1000px){
+  .middle{
+    padding-left: 20%;
+    padding-right: 20%;
+  }
 }
