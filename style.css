@@ -70,7 +70,7 @@ body {
   background-color: rgb(41, 41, 41);
   background-repeat: repeat;
   background-attachment: fixed;
-  background-size: 30em;
+  background-size: 10em;
 }
 
 .center {
@@ -100,19 +100,19 @@ a:hover {
 
 @keyframes colorRotate {
   from {
-      color: #5BCEFA;
+      color: #6666ff;
   }
   15% {
-      color: #F5A9B8;
+      color: #0099ff;
   }
   50% {
-      color: #FFFFFF;
+      color: #00ff00;
   }
   75% {
-      color: #F5A9B8;
+      color: #ff3399;
   }
   100% {
-      color: #5BCEFA;
+      color: #6666ff;
   }
 }
 
